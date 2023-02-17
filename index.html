@@ -9,18 +9,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>  
+
     <h1>Removedor de Caracteres especiais
     </h1>
     <div class="conteudo">
+        <h2>Cole aqui:</h2>
         <input type="text" id="inputText">
-        <button on onclick="removeSpecialCharacters()">Remover</button>
+        <button on onclick="removeSpecialCharacters()" class="btn zoom-shadow">Remover</button>
         <br>
-        <h4>Texto editado:</h4>
+        <h2>Texto editado:</h2>
         <div class="resultado">
             <p id="outputText"></p>
         </div>
-    
-    </div>
+        <br>
+        <div class="atencao">
+            <h6>Atenção:</h6>
+            <p>Não remove espaços</p>
+        </div>
+    </div> 
+    <h5>Para remover, basta colar o texto com os caracteres e pressionar o botão "Remover". Na caixa abaixo, será mostrado o texto editado.</h5>
+    <br>
+
     
     <script src="script.js"></script>
 </body>
